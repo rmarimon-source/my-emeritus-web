@@ -12,18 +12,6 @@
     h1, h2, h3 {
       font-family: 'Playfair Display', serif;
     }
-    <script>
-document.addEventListener('click', e => {
-  const btn = e.target.closest('[data-toggle]');
-  if (!btn) return;
-  const id = btn.getAttribute('data-toggle');
-  const el = document.getElementById(id);
-  if (!el) return;
-  el.hidden = !el.hidden;
-  btn.textContent = el.hidden ? 'Read more' : 'Read less';
-});
-</script>
-
     body {
       font-family: Cambria, Georgia, serif;
     }
