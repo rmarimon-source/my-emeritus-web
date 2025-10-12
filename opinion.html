@@ -36,9 +36,9 @@ d<!DOCTYPE html>
 <main class="max-w-5xl mx-auto px-6 sm:px-12 py-12 space-y-10">
 
     <section class="bg-white p-6 rounded-lg border-l-4 border-[#e85c25] shadow">
-      <h1 class="text-3xl font-bold">Selected published and unpublished opinions</h1>
+      <h1 class="text-3xl font-bold">Selected published opinions</h1>
       <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>Some of my opinion articles in EL PAIS (English translation)</li>
+        <p>Some of my opinion articles in EL PAIS (English translation)</p>
       </ul>
    </section>
 
@@ -54,10 +54,13 @@ d<!DOCTYPE html>
                     As has been said in these pages, this explains the immediate widespread support for Trump and Netanyahu's Peace Plan.  
                     “What is needed is to stop the killing”, read the editorial title of EL PAÍS of October 1st. True, but in any peace agreement, 
                     it is necessary to separate: what is clearly said (the commitment), what is ambiguously said (hence, non credible), 
-                    and what is not said. For example, the ambiguous point 19 on the future Palestinian state has already been dismissed by Netanyahu And, 
+                    and what is not said. <span id="abs1" class="hidden">
+                    For example, the ambiguous point 19 on the future Palestinian state has already been dismissed by Netanyahu And, 
                     regarding the absences, the most noticeable is that of the other party, as every peace agreement requires—neither Hamas, which is defeated, 
                     nor the Palestinian Authority, which role is delayed. But there is another absence that is almost as important.
-                    
+      </span>
+     <button onclick="document.getElementById('abs1').classList.toggle('hidden'); this.remove();" class="text-[#e85c25] underline ml-1">Read more</button>
+        
         <p>To whom the Gaza Strip will belong? Normally, territorial peace not only resolves the war, but also determines who is sovereign over each territory and, consequently, 
             how ownership is restored in each territory. Unfortunately, this is not the case in the Gaza Strip, and we are not talking about just any territory, 
             but rather of a "gold mine," as Trump and Netanyahu's ministers like to call it.
